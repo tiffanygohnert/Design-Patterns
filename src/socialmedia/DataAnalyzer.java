@@ -8,7 +8,7 @@ import java.util.List;
  *
  * DO NOT MODIFY THIS CLASS!!
  * 
- * @author sburton
+ * @author sburto
  */
 
 // DO NOT MODIFY THIS CLASS!!
