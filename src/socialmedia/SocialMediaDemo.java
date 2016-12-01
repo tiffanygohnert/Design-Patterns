@@ -72,10 +72,10 @@ public class SocialMediaDemo implements Runnable {
         
         List<SocialMediaEntry> entries = new ArrayList<>();
         
-        // YouTubeVideo does not implement the correct interface to allow this!
-        //entries.add(video1);
-        //entries.add(video2);
-        //entries.add(video3);
+           // YouTubeVideo does not implement the correct interface to allow this!
+         entries.add(new YouTubeAdaptor(video1));
+      entries.add(new YouTubeAdaptor(video2));
+      entries.add(new YouTubeAdaptor(video3));
         
         DataAnalyzer analyzer = new DataAnalyzer();
         analyzer.analyzeEntries(entries);
